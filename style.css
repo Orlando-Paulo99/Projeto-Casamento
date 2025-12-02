@@ -1,67 +1,71 @@
 
 body{
-    background-color: #fefae0;
+    background-color: #F7E1D7;
     font-family: 'Poppins', sans-serif;
+    color: #A53860 ;
 }
 
 
 .add{
 
     
-    width: 80%;
+    width: 90%;
     display:block;
     background-color: #fff;
     opacity: 0.70;
-    height:60px;
+    height:350px;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 5px;
+    left: 45px;
     padding: 20px;  
     border-radius: 15px;
-
+    margin-bottom: 25px;
     
 }
 
 .add input{
-    width: 24%;
-    font-size: 5px;
+    width: 50%;
+    font-size: 40px;
     position: relative;
-    left: 99px;
+    left: 40%;
     border-radius: 2px;
     background-color:;
-
+    top: 60px;
     
 
 }
 
 .add h1{
     width: 60%;
-    font-size: 6px;
+    font-size: 60px;
     position: relative;
-    left: 92px;
+    left: 400px;
 }
 
 .add p{
-     width: 60%;
-     font-size: 8px;
-      position: relative;
-    left: 70px;
-    white-space: nowrap;
+        width: 60%;
+        font-size: 20px;
+        position: relative;
+        left: 510px;
+        white-space: nowrap;
 }
 
 #newIMG{
-   
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
+    position: relative;
+    left: 140px;
+    justify-content: space-between;
 
     
 }
 
 #newIMG img{
-    width: 150px;     /* ajuste como quiser */
+    width: 290px;     /* ajuste como quiser */
     height: auto;
     object-fit: cover;
     border-radius: 8px;   
@@ -74,3 +78,80 @@ body{
 */
 }
 
+
+@media (max-width: 480px) {
+
+    .add{
+        width: 78%;
+        display:block;
+        background-color:#fff;
+        opacity: 0.70;
+        height:200px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 18px;
+        padding: 20px;  
+        border-radius: 15px;
+        margin-bottom: 25px;
+        
+    }
+
+    .add h1{
+    width: 60%;
+    font-size: 19px;
+    position: relative;
+    left: 12%;
+    white-space: nowrap;
+    }
+
+    .add input{
+    width: 85%;
+    font-size: 40px;
+    position: relative;
+    left: 9%;
+    border-radius: 2px;
+    background-color:;
+    top: 60px;
+    padding: 2px 2px 2px 2px;
+    
+
+    }
+
+    .add p{
+        width: 60%;
+        font-size: 13px;
+        position: relative;
+        left: 6%;
+        white-space: nowrap;
+    }
+
+    #newIMG{
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+        position: relative;
+        left: 33px;
+        justify-content: space-between;
+
+    
+    }
+
+    #newIMG img{
+    width: 290px;     
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;   
+
+    /**width: 60px;
+    height: 40px;
+    position: relative;
+    left: 10%;
+    padding: 10px;
+*/
+    }
+
+    
+}
