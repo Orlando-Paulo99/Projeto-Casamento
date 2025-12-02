@@ -1,13 +1,13 @@
-.{
-    margin: 0px;
-    padding: 0px;
-}
+
 body{
     background-color: #fefae0;
     font-family: 'Poppins', sans-serif;
 }
 
+
 .add{
+
+    
     width: 80%;
     display:block;
     background-color: #fff;
@@ -52,19 +52,25 @@ body{
 
 #newIMG{
    
-    display:flexbox;
-    
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 
     
 }
 
 #newIMG img{
-    width: 60px;
+    width: 150px;     /* ajuste como quiser */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;   
+
+    /**width: 60px;
     height: 40px;
     position: relative;
     left: 10%;
     padding: 10px;
-
+*/
 }
 
