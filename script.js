@@ -26,6 +26,9 @@ async function foto(event){
     .from('ff')
     .upload(`nova/${fileName}`,fotu)
 
+    //após o usuario inserir as fotos a pagina atualiza automaticamente
+    location.reload()
+
     console.log(error)
 }
 
@@ -39,10 +42,13 @@ async function visualizarF() {
     .from('ff')
     .list('nova')
     
+    
+
     if(error){
         console.log(error)
         return
     }
+    
     
     data.forEach(file => {
         const {data:publicData}= supabase
@@ -65,3 +71,5 @@ async function visualizarF() {
 }
 
 visualizarF()
+
+

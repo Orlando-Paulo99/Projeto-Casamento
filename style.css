@@ -65,7 +65,7 @@ body{
 }
 
 #newIMG img{
-    width: 290px;     /* ajuste como quiser */
+    width: 180px;     /* ajuste como quiser */
     height: auto;
     object-fit: cover;
     border-radius: 8px;   
